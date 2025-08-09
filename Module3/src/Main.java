@@ -4,7 +4,7 @@ import java.nio.file.*;
 
 public class Main {
     public static void main(String[] args) throws UserException {
-        String path1 = System.getProperty("java.class.path") + "\\Songs.txt";
+        String path1 = System.getProperty("java.class.path") + "\\Songs.txt";  // берется из out/production
 
         write(path1, "Wang Chung - Fire in the Twilight\nKarla DeVito - " +
                 "We Are not alone\nOzzy Osbourne - Slow Down\n");
